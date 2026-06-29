@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="ريتال أوفيس - مكتب خدمات تعليمية متخصص في القبولات الجامعية والدراسة في مصر والصين والهند" />
+  <meta name="keywords" content="ريتال أوفيس, دراسة في الخارج, قبول جامعي, مصر, الصين, الهند, منح دراسية" />
+  <meta name="author" content="KIN" />
+  <meta property="og:title" content="ريتال أوفيس - بوابتك نحو التعليم الدولي" />
+  <meta property="og:description" content="نساعدك في الوصول إلى أفضل الجامعات في مصر والصين والهند" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0F4C81" />
+  <title>ريتال أوفيس | بوابتك نحو التعليم الدولي</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T4VQXKD7EF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T4VQXKD7EF');
+</script>
+  <!-- Preload critical fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Skip link -->
+  <a href="#main" class="skip-link">تخطى إلى المحتوى الرئيسي</a>
+
+  <!-- Scroll progress -->
+  <div id="scrollProgress" role="progressbar" aria-label="تقدم التمرير" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+
+  <!-- Loader -->
+  <div id="loader" role="status" aria-label="جارٍ التحميل" aria-live="polite">
+    <div class="loader-inner">
+      <div class="loader-logo">
+        <span class="loader-r">R</span>
+        <span class="loader-text">ريتال أوفيس</span>
+      </div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- Mobile menu overlay -->
+  <div id="menuOverlay" class="menu-overlay" aria-hidden="true"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <header id="navbar" role="banner">
+    <nav class="nav-container" aria-label="التنقل الرئيسي">
+
+      <a href="#home" class="nav-logo" aria-label="ريتال أوفيس - الصفحة الرئيسية">
+        <div class="logo-icon" aria-hidden="true">R</div>
+        <span class="logo-text">ريتال أوفيس</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#home"         class="nav-link active" aria-current="page">الرئيسية</a></li>
+        <li><a href="#about"        class="nav-link">من نحن</a></li>
+        <li><a href="#services"     class="nav-link">خدماتنا</a></li>
+        <li><a href="#why"          class="nav-link">لماذا ريتال؟</a></li>
+        <li><a href="#steps"        class="nav-link">خطوات التقديم</a></li>
+        <li><a href="#countries"    class="nav-link">الدول</a></li>
+        <li><a href="#testimonials" class="nav-link">آراء الطلاب</a></li>
+        <li><a href="#gallery"      class="nav-link">المعرض</a></li>
+        <li><a href="#faq"          class="nav-link">الأسئلة الشائعة</a></li>
+        <li><a href="#contact"      class="nav-link">تواصل معنا</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-btn" aria-label="تبديل المظهر" title="تبديل المظهر">
+          <i class="fas fa-moon" id="themeIcon" aria-hidden="true"></i>
+        </button>
+        <button id="menuToggle" class="menu-btn" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navLinks">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero" aria-label="القسم الرئيسي">
+      <div class="hero-bg" aria-hidden="true">
+        <img
+          src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&q=80"
+          alt=""
+          class="hero-img"
+          fetchpriority="high"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-particles" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-badge reveal" aria-label="بوابتك نحو التعليم الدولي">
+          <span aria-hidden="true">🎓</span> بوابتك نحو التعليم الدولي
+        </div>
+        <h1 class="hero-title reveal">
+          ابدأ مستقبلك<br />
+          <span class="accent-text">مع ريتال أوفيس</span>
+        </h1>
+        <p class="hero-desc reveal">
+          نساعدك على اختيار الجامعة المناسبة وإتمام إجراءات القبول في مصر والصين والهند بكل سهولة واحترافية.
+        </p>
+        <div class="hero-buttons reveal">
+          <a href="#services" class="btn btn-primary">
+            <i class="fas fa-rocket" aria-hidden="true"></i>
+            <span>ابدأ الآن</span>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fas fa-comments" aria-hidden="true"></i>
+            <span>تواصل معنا</span>
+          </a>
+        </div>
+        <div class="hero-stats reveal" aria-label="إحصائياتنا">
+          <div class="hstat">
+            <span class="hstat-num">+500</span>
+            <span class="hstat-lbl">طالب</span>
+          </div>
+          <div class="hstat-div" aria-hidden="true"></div>
+          <div class="hstat">
+            <span class="hstat-num">+50</span>
+            <span class="hstat-lbl">جامعة</span>
+          </div>
+          <div class="hstat-div" aria-hidden="true"></div>
+          <div class="hstat">
+            <span class="hstat-num">3</span>
+            <span class="hstat-lbl">دول</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="hero-scroll" aria-label="التمرير للأسفل">
+        <i class="fas fa-chevron-down" aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">تعرف علينا</span>
+          <h2 class="section-title" id="about-title">من نحن</h2>
+          <p class="section-desc">ريتال أوفيس مكتب متخصص في خدمات التعليم الدولي يساعد الطلاب على تحقيق أحلامهم الأكاديمية.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-visual reveal">
+            <div class="about-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80"
+                alt="مجموعة طلاب يدرسون معاً"
+                class="about-img"
+                loading="lazy"
+              />
+              <div class="about-badge-float" aria-hidden="true">
+                <i class="fas fa-award"></i>
+                <span>جودة موثوقة</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-content reveal">
+            <h3 class="about-subtitle">نحن هنا لنفتح لك أبواب العالم</h3>
+            <p class="about-text">
+              ريتال أوفيس هو مكتب خدمات تعليمية متكامل يعمل على مساعدة الطلاب في الحصول على القبولات الجامعية وإتمام إجراءات التسجيل في أبرز الجامعات حول العالم. نؤمن بأن التعليم حق للجميع، ونسعى لتسهيل الوصول إليه بكل شفافية.
+            </p>
+            <div class="about-features">
+              <div class="afeature">
+                <div class="afeature-icon" aria-hidden="true"><i class="fas fa-graduation-cap"></i></div>
+                <div class="afeature-body">
+                  <strong>الدراسة في مصر</strong>
+                  <p>قبولات في أعرق الجامعات المصرية الحكومية والخاصة</p>
+                </div>
+              </div>
+              <div class="afeature">
+                <div class="afeature-icon" aria-hidden="true"><i class="fas fa-globe-asia"></i></div>
+                <div class="afeature-body">
+                  <strong>الدراسة في الصين</strong>
+                  <p>شراكات مع أفضل الجامعات الصينية الدولية</p>
+                </div>
+              </div>
+              <div class="afeature">
+                <div class="afeature-icon" aria-hidden="true"><i class="fas fa-university"></i></div>
+                <div class="afeature-body">
+                  <strong>الدراسة في الهند</strong>
+                  <p>برامج متميزة في الطب والهندسة والتقنية</p>
+                </div>
+              </div>
+              <div class="afeature">
+                <div class="afeature-icon" aria-hidden="true"><i class="fas fa-file-alt"></i></div>
+                <div class="afeature-body">
+                  <strong>القبولات الجامعية</strong>
+                  <p>متابعة كاملة من التقديم حتى الحصول على القبول</p>
+                </div>
+              </div>
+              <div class="afeature">
+                <div class="afeature-icon" aria-hidden="true"><i class="fas fa-chalkboard-teacher"></i></div>
+                <div class="afeature-body">
+                  <strong>الاستشارات الأكاديمية</strong>
+                  <p>توجيه مخصص من خبراء تعليميين متمرسين</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services" class="section services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">ما نقدمه</span>
+          <h2 class="section-title" id="services-title">خدماتنا</h2>
+          <p class="section-desc">نوفر باقة شاملة من الخدمات التعليمية المتكاملة لضمان رحلة أكاديمية ناجحة.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal" tabindex="0">
+            <div class="sc-icon" aria-hidden="true"><i class="fas fa-university"></i></div>
+            <h3 class="sc-title">القبول الجامعي</h3>
+            <p class="sc-desc">نضمن لك الحصول على قبول في الجامعات المعتمدة بأسرع وقت وأعلى جودة.</p>
+            <div class="sc-link" aria-hidden="true"><i class="fas fa-arrow-left"></i> اعرف أكثر</div>
+          </article>
+          <article class="service-card reveal" tabindex="0">
+            <div class="sc-icon" aria-hidden="true"><i class="fas fa-file-invoice"></i></div>
+            <h3 class="sc-title">استخراج الدعوات</h3>
+            <p class="sc-desc">نتولى استخراج الدعوات الرسمية من الجامعات لإتمام إجراءات التأشيرة.</p>
+            <div class="sc-link" aria-hidden="true"><i class="fas fa-arrow-left"></i> اعرف أكثر</div>
+          </article>
+          <article class="service-card reveal" tabindex="0">
+            <div class="sc-icon" aria-hidden="true"><i class="fas fa-tasks"></i></div>
+            <h3 class="sc-title">متابعة إجراءات التسجيل</h3>
+            <p class="sc-desc">متابعة دقيقة لكل خطوة من خطوات التسجيل والقبول حتى الوصول.</p>
+            <div class="sc-link" aria-hidden="true"><i class="fas fa-arrow-left"></i> اعرف أكثر</div>
+          </article>
+          <article class="service-card reveal" tabindex="0">
+            <div class="sc-icon" aria-hidden="true"><i class="fas fa-comments"></i></div>
+            <h3 class="sc-title">الاستشارات التعليمية</h3>
+            <p class="sc-desc">خبراؤنا يوجهونك لاختيار التخصص والجامعة الأنسب لطموحاتك.</p>
+            <div class="sc-link" aria-hidden="true"><i class="fas fa-arrow-left"></i> اعرف أكثر</div>
+          </article>
+          <article class="service-card reveal" tabindex="0">
+            <div class="sc-icon" aria-hidden="true"><i class="fas fa-medal"></i></div>
+            <h3 class="sc-title">المنح الدراسية</h3>
+            <p class="sc-desc">نساعدك في الحصول على المنح الدراسية المتاحة وفق مؤهلاتك.</p>
+            <div class="sc-link" aria-hidden="true"><i class="fas fa-arrow-left"></i> اعرف أكثر</div>
+          </article>
+          <article class="service-card reveal" tabindex="0">
+            <div class="sc-icon" aria-hidden="true"><i class="fas fa-microscope"></i></div>
+            <h3 class="sc-title">الدراسات العليا</h3>
+            <p class="sc-desc">برامج الماجستير والدكتوراه في أفضل الجامعات الدولية.</p>
+            <div class="sc-link" aria-hidden="true"><i class="fas fa-arrow-left"></i> اعرف أكثر</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY RITAL ===== -->
+    <section id="why" class="section why" aria-labelledby="why-title">
+      <div class="why-bg-shape" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">مميزاتنا</span>
+          <h2 class="section-title" id="why-title">لماذا ريتال؟</h2>
+          <p class="section-desc">أرقامنا تتحدث عن نفسها، ثقة طلابنا هي مصدر قوتنا.</p>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card reveal">
+            <div class="stat-icon" aria-hidden="true"><i class="fas fa-user-graduate"></i></div>
+            <div class="stat-num" data-target="500" data-suffix="+">0</div>
+            <div class="stat-label">طالب سعيد</div>
+            <div class="stat-sublabel">وصلوا إلى حلمهم بمساعدتنا</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-icon" aria-hidden="true"><i class="fas fa-building-columns"></i></div>
+            <div class="stat-num" data-target="50" data-suffix="+">0</div>
+            <div class="stat-label">جامعة شريكة</div>
+            <div class="stat-sublabel">في 3 دول مختلفة</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-icon" aria-hidden="true"><i class="fas fa-globe"></i></div>
+            <div class="stat-num" data-target="3" data-suffix="">0</div>
+            <div class="stat-label">دول</div>
+            <div class="stat-sublabel">مصر، الصين، الهند</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-icon" aria-hidden="true"><i class="fas fa-calendar-check"></i></div>
+            <div class="stat-num" data-target="5" data-suffix="+">0</div>
+            <div class="stat-label">سنوات خبرة</div>
+            <div class="stat-sublabel">في مجال التعليم الدولي</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STEPS ===== -->
+    <section id="steps" class="section steps" aria-labelledby="steps-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">كيف نعمل</span>
+          <h2 class="section-title" id="steps-title">خطوات التقديم</h2>
+          <p class="section-desc">رحلتك معنا واضحة وسهلة، خطوة بخطوة حتى تصل إلى هدفك.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-line" aria-hidden="true"></div>
+          <div class="step reveal">
+            <div class="step-num" aria-hidden="true">١</div>
+            <div class="step-card">
+              <div class="step-icon" aria-hidden="true"><i class="fas fa-phone-alt"></i></div>
+              <h3 class="step-title">التواصل</h3>
+              <p class="step-desc">تواصل معنا عبر الهاتف أو الإنترنت وأخبرنا بطموحاتك وأهدافك الأكاديمية.</p>
+            </div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num" aria-hidden="true">٢</div>
+            <div class="step-card">
+              <div class="step-icon" aria-hidden="true"><i class="fas fa-lightbulb"></i></div>
+              <h3 class="step-title">الاستشارة</h3>
+              <p class="step-desc">جلسة استشارية مجانية مع خبرائنا لتحديد الخيارات الأنسب لك.</p>
+            </div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num" aria-hidden="true">٣</div>
+            <div class="step-card">
+              <div class="step-icon" aria-hidden="true"><i class="fas fa-folder-open"></i></div>
+              <h3 class="step-title">تجهيز الأوراق</h3>
+              <p class="step-desc">نوجهك لتجهيز جميع المستندات المطلوبة ونراجعها بدقة قبل التقديم.</p>
+            </div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num" aria-hidden="true">٤</div>
+            <div class="step-card">
+              <div class="step-icon" aria-hidden="true"><i class="fas fa-paper-plane"></i></div>
+              <h3 class="step-title">التقديم</h3>
+              <p class="step-desc">نتولى تقديم طلبك رسمياً إلى الجامعة ونتابع مساره بشكل مستمر.</p>
+            </div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num" aria-hidden="true">٥</div>
+            <div class="step-card">
+              <div class="step-icon" aria-hidden="true"><i class="fas fa-check-circle"></i></div>
+              <h3 class="step-title">الحصول على القبول</h3>
+              <p class="step-desc">نسلمك قبولك الجامعي الرسمي ونكمل معك خطوات السفر والتأشيرة.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COUNTRIES ===== -->
+    <section id="countries" class="section countries" aria-labelledby="countries-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">وجهاتنا</span>
+          <h2 class="section-title" id="countries-title">الدول التي نوفر الدراسة بها</h2>
+          <p class="section-desc">نغطي أبرز الوجهات التعليمية بتكاليف مناسبة وجودة عالية.</p>
+        </div>
+        <div class="countries-grid">
+          <article class="country-card reveal">
+            <div class="country-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=600&q=80"
+                alt="مصر - الأهرامات"
+                loading="lazy"
+              />
+              <div class="country-overlay" aria-hidden="true">
+                <span class="country-flag">🇪🇬</span>
+              </div>
+            </div>
+            <div class="country-body">
+              <h3 class="country-name">مصر</h3>
+              <p class="country-desc">جامعات عريقة بتكاليف معقولة ومستوى أكاديمي رفيع في قلب العالم العربي.</p>
+              <ul class="country-features">
+                <li><i class="fas fa-check" aria-hidden="true"></i> تخصصات متنوعة</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i> رسوم ميسورة</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i> بيئة عربية مريحة</li>
+              </ul>
+              <a href="#contact" class="btn btn-sm">تعرف أكثر</a>
+            </div>
+          </article>
+          <article class="country-card reveal">
+            <div class="country-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=600&q=80"
+                alt="الصين - المعبد القديم"
+                loading="lazy"
+              />
+              <div class="country-overlay" aria-hidden="true">
+                <span class="country-flag">🇨🇳</span>
+              </div>
+            </div>
+            <div class="country-body">
+              <h3 class="country-name">الصين</h3>
+              <p class="country-desc">وجهة متميزة للتعليم التقني والعلمي مع فرص واسعة للمنح الحكومية.</p>
+              <ul class="country-features">
+                <li><i class="fas fa-check" aria-hidden="true"></i> منح حكومية متاحة</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i> تقنية متقدمة</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i> تجربة ثقافية فريدة</li>
+              </ul>
+              <a href="#contact" class="btn btn-sm">تعرف أكثر</a>
+            </div>
+          </article>
+          <article class="country-card reveal">
+            <div class="country-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=80"
+                alt="الهند - معمار تاريخي"
+                loading="lazy"
+              />
+              <div class="country-overlay" aria-hidden="true">
+                <span class="country-flag">🇮🇳</span>
+              </div>
+            </div>
+            <div class="country-body">
+              <h3 class="country-name">الهند</h3>
+              <p class="country-desc">تعليم طبي وهندسي بمستوى عالمي بتكاليف في متناول الجميع.</p>
+              <ul class="country-features">
+                <li><i class="fas fa-check" aria-hidden="true"></i> طب وهندسة متميزة</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i> تكاليف منخفضة</li>
+                <li><i class="fas fa-check" aria-hidden="true"></i> شهادات معترف بها دولياً</li>
+              </ul>
+              <a href="#contact" class="btn btn-sm">تعرف أكثر</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section id="testimonials" class="section testimonials" aria-labelledby="test-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">قصص نجاح</span>
+          <h2 class="section-title" id="test-title">آراء الطلاب</h2>
+          <p class="section-desc">كلام طلابنا هو أصدق شهادة على عملنا.</p>
+        </div>
+        <div class="slider-wrap reveal">
+          <div class="slider" id="testimonialSlider" role="region" aria-label="شهادات الطلاب" aria-live="polite">
+            <div class="slide active">
+              <div class="testimonial-card">
+                <div class="tc-quote" aria-hidden="true"><i class="fas fa-quote-right"></i></div>
+                <p class="tc-text">بفضل ريتال أوفيس حصلت على قبول في جامعة القاهرة ضمن شهر واحد فقط. الفريق كان محترفاً جداً وسهّل عليّ كل الإجراءات.</p>
+                <div class="tc-author">
+                  <div class="tc-avatar" aria-hidden="true">أ</div>
+                  <div class="tc-info">
+                    <strong>أحمد محمد</strong>
+                    <span>طالب طب - القاهرة</span>
+                  </div>
+                  <div class="tc-stars" aria-label="5 من 5 نجوم">
+                    <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="testimonial-card">
+                <div class="tc-quote" aria-hidden="true"><i class="fas fa-quote-right"></i></div>
+                <p class="tc-text">أنصح كل من يريد الدراسة في الصين بالتواصل مع ريتال أوفيس. ساعدوني في الحصول على منحة دراسية وكانوا معي في كل خطوة.</p>
+                <div class="tc-author">
+                  <div class="tc-avatar" aria-hidden="true">س</div>
+                  <div class="tc-info">
+                    <strong>سارة علي</strong>
+                    <span>طالبة هندسة - بكين</span>
+                  </div>
+                  <div class="tc-stars" aria-label="5 من 5 نجوم">
+                    <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="testimonial-card">
+                <div class="tc-quote" aria-hidden="true"><i class="fas fa-quote-right"></i></div>
+                <p class="tc-text">الدراسة في الهند كانت حلماً، وريتال أوفيس جعله حقيقة. الفريق متعاون ومتابع لكل شيء، وأنا الآن في السنة الثانية طب.</p>
+                <div class="tc-author">
+                  <div class="tc-avatar" aria-hidden="true">م</div>
+                  <div class="tc-info">
+                    <strong>محمد الأمين</strong>
+                    <span>طالب طب - مومباي</span>
+                  </div>
+                  <div class="tc-stars" aria-label="5 من 5 نجوم">
+                    <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="testimonial-card">
+                <div class="tc-quote" aria-hidden="true"><i class="fas fa-quote-right"></i></div>
+                <p class="tc-text">خدمة ممتازة وسرعة في الإنجاز. حصلت على قبول في 3 جامعات واخترت الأنسب لي بناءً على نصائحهم القيّمة.</p>
+                <div class="tc-author">
+                  <div class="tc-avatar" aria-hidden="true">ف</div>
+                  <div class="tc-info">
+                    <strong>فاطمة يوسف</strong>
+                    <span>طالبة صيدلة - الإسكندرية</span>
+                  </div>
+                  <div class="tc-stars" aria-label="5 من 5 نجوم">
+                    <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-controls" role="group" aria-label="تحكم في الشهادات">
+            <button class="slider-btn" id="prevSlide" aria-label="الشهادة السابقة">
+              <i class="fas fa-chevron-right" aria-hidden="true"></i>
+            </button>
+            <div class="slider-dots" id="sliderDots" role="tablist" aria-label="اختيار الشهادة"></div>
+            <button class="slider-btn" id="nextSlide" aria-label="الشهادة التالية">
+              <i class="fas fa-chevron-left" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALLERY ===== -->
+    <section id="gallery" class="section gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">لقطات من رحلتنا</span>
+          <h2 class="section-title" id="gallery-title">معرض الصور</h2>
+          <p class="section-desc">لحظات من نجاح طلابنا وشراكاتنا حول العالم.</p>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200&q=80" data-caption="حفل تخرج الطلاب" aria-label="عرض صورة حفل تخرج الطلاب">
+            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80" alt="حفل تخرج الطلاب" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><i class="fas fa-expand"></i></div>
+          </button>
+          <button class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1200&q=80" data-caption="حرم جامعي دولي" aria-label="عرض صورة حرم جامعي دولي">
+            <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=600&q=80" alt="حرم جامعي دولي" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><i class="fas fa-expand"></i></div>
+          </button>
+          <button class="gallery-item reveal tall" data-src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=1200&q=80" data-caption="طلاب في المكتبة" aria-label="عرض صورة طلاب في المكتبة">
+            <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&q=80" alt="طلاب في المكتبة" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><i class="fas fa-expand"></i></div>
+          </button>
+          <button class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=1200&q=80" data-caption="بكين - الصين" aria-label="عرض صورة بكين الصين">
+            <img src="https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=600&q=80" alt="بكين - الصين" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><i class="fas fa-expand"></i></div>
+          </button>
+          <button class="gallery-item reveal wide" data-src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&q=80" data-caption="الهند - وجهة تعليمية" aria-label="عرض صورة الهند وجهة تعليمية">
+            <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=80" alt="الهند - وجهة تعليمية" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><i class="fas fa-expand"></i></div>
+          </button>
+          <button class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=1200&q=80" data-caption="مصر - أرض الحضارات" aria-label="عرض صورة مصر أرض الحضارات">
+            <img src="https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=600&q=80" alt="مصر - أرض الحضارات" loading="lazy" />
+            <div class="gallery-overlay" aria-hidden="true"><i class="fas fa-expand"></i></div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="عرض الصورة" hidden>
+        <button class="lb-close" id="lbClose" aria-label="إغلاق">
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+        <button class="lb-nav lb-prev" id="lbPrev" aria-label="الصورة السابقة">
+          <i class="fas fa-chevron-right" aria-hidden="true"></i>
+        </button>
+        <button class="lb-nav lb-next" id="lbNext" aria-label="الصورة التالية">
+          <i class="fas fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <div class="lb-content">
+          <img id="lbImg" src="" alt="" />
+          <p class="lb-caption" id="lbCaption"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq" class="section faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">استفساراتكم</span>
+          <h2 class="section-title" id="faq-title">الأسئلة الشائعة</h2>
+          <p class="section-desc">إجابات على أكثر الأسئلة التي يطرحها طلابنا.</p>
+        </div>
+        <div class="faq-list" role="list">
+          <div class="faq-item reveal" role="listitem">
+            <button class="faq-q" aria-expanded="false">
+              <span>ما هي خدمات ريتال أوفيس الأساسية؟</span>
+              <span class="faq-icon" aria-hidden="true"><i class="fas fa-plus"></i></span>
+            </button>
+            <div class="faq-a" hidden>
+              <p>نقدم خدمات شاملة تشمل: القبول الجامعي، استخراج الدعوات، متابعة إجراءات التسجيل، الاستشارات التعليمية، المنح الدراسية، وبرامج الدراسات العليا في مصر والصين والهند.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal" role="listitem">
+            <button class="faq-q" aria-expanded="false">
+              <span>كم تستغرق عملية الحصول على القبول؟</span>
+              <span class="faq-icon" aria-hidden="true"><i class="fas fa-plus"></i></span>
+            </button>
+            <div class="faq-a" hidden>
+              <p>تتراوح مدة الحصول على القبول عادةً بين أسبوعين وشهر، وذلك حسب الجامعة والتخصص والدولة المستهدفة. نحرص على متابعة طلبك بشكل مستمر وإبلاغك بكل تطور.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal" role="listitem">
+            <button class="faq-q" aria-expanded="false">
+              <span>هل تتوفر منح دراسية؟</span>
+              <span class="faq-icon" aria-hidden="true"><i class="fas fa-plus"></i></span>
+            </button>
+            <div class="faq-a" hidden>
+              <p>نعم، نساعد الطلاب في التقديم على المنح الدراسية المتاحة في الصين والهند، وبعض المنح الخاصة في مصر. تواصل معنا لمعرفة المنح التي تناسب ملفك الأكاديمي.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal" role="listitem">
+            <button class="faq-q" aria-expanded="false">
+              <span>ما هي المستندات المطلوبة للتقديم؟</span>
+              <span class="faq-icon" aria-hidden="true"><i class="fas fa-plus"></i></span>
+            </button>
+            <div class="faq-a" hidden>
+              <p>المستندات الأساسية تشمل: شهادة الثانوية العامة أو ما يعادلها، جواز السفر، صور شخصية، وقد تُطلب بعض الجامعات مستندات إضافية. فريقنا يوجهك لكل ما يلزم.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal" role="listitem">
+            <button class="faq-q" aria-expanded="false">
+              <span>هل تساعدون في إجراءات التأشيرة؟</span>
+              <span class="faq-icon" aria-hidden="true"><i class="fas fa-plus"></i></span>
+            </button>
+            <div class="faq-a" hidden>
+              <p>بالطبع، نوفر الدعم الكامل في استخراج الدعوات الرسمية من الجامعات ونرشدك لجميع خطوات التأشيرة اللازمة للدراسة في الدولة المستهدفة.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal" role="listitem">
+            <button class="faq-q" aria-expanded="false">
+              <span>كيف أتواصل معكم؟</span>
+              <span class="faq-icon" aria-hidden="true"><i class="fas fa-plus"></i></span>
+            </button>
+            <div class="faq-a" hidden>
+              <p>يمكنك التواصل معنا من خلال نموذج التواصل أسفل الصفحة، أو عبر وسائل التواصل الاجتماعي. فريقنا متواجد للرد على استفساراتك في أقرب وقت ممكن.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">نحن هنا لك</span>
+          <h2 class="section-title" id="contact-title">تواصل معنا</h2>
+          <p class="section-desc">أرسل لنا استفسارك وسيتواصل معك فريقنا في أقرب وقت.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="cinfo-item">
+              <div class="cinfo-icon" aria-hidden="true"><i class="fas fa-phone"></i></div>
+              <div>
+                <strong>الهاتف</strong>
+                <p dir="ltr">+XXX-XXX-XXXX</p>
+              </div>
+            </div>
+            <div class="cinfo-item">
+              <div class="cinfo-icon" aria-hidden="true"><i class="fas fa-envelope"></i></div>
+              <div>
+                <strong>البريد الإلكتروني</strong>
+                <p>info@ritaloffice.com</p>
+              </div>
+            </div>
+            <div class="cinfo-item">
+              <div class="cinfo-icon" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <strong>العنوان</strong>
+                <p>مكتبنا متاح عبر الإنترنت لخدمة الطلاب في جميع أنحاء العالم</p>
+              </div>
+            </div>
+            <div class="social-links" aria-label="وسائل التواصل الاجتماعي">
+              <a href="#" class="social-btn" aria-label="فيسبوك"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+              <a href="#" class="social-btn" aria-label="واتساب"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+              <a href="#" class="social-btn" aria-label="إنستغرام"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="#" class="social-btn" aria-label="تويتر"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              <a href="#" class="social-btn" aria-label="تيك توك"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+            </div>
+            <div class="map-placeholder" role="img" aria-label="خريطة موقعنا">
+              <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
+              <span>خريطة الموقع</span>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap reveal">
+            <form id="contactForm" class="contact-form" novalidate aria-label="نموذج التواصل">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fname">الاسم الكامل <span class="required" aria-hidden="true">*</span></label>
+                  <input type="text" id="fname" name="name" placeholder="أدخل اسمك الكامل" required autocomplete="name" aria-required="true" />
+                  <span class="field-err" role="alert" aria-live="polite"></span>
+                </div>
+                <div class="form-group">
+                  <label for="femail">البريد الإلكتروني <span class="required" aria-hidden="true">*</span></label>
+                  <input type="email" id="femail" name="email" placeholder="example@email.com" required autocomplete="email" aria-required="true" dir="ltr" />
+                  <span class="field-err" role="alert" aria-live="polite"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="fphone">رقم الهاتف</label>
+                <input type="tel" id="fphone" name="phone" placeholder="+XXX-XXX-XXXX" autocomplete="tel" dir="ltr" />
+                <span class="field-err" role="alert" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="fmessage">رسالتك <span class="required" aria-hidden="true">*</span></label>
+                <textarea id="fmessage" name="message" rows="5" placeholder="اكتب رسالتك هنا..." required aria-required="true"></textarea>
+                <span class="field-err" role="alert" aria-live="polite"></span>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                <span>أرسل الرسالة</span>
+              </button>
+              <div id="formSuccess" class="form-success" hidden role="alert">
+                <i class="fas fa-check-circle" aria-hidden="true"></i>
+                تم إرسال رسالتك بنجاح! سنتواصل معك قريباً.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#home" class="nav-logo footer-logo" aria-label="ريتال أوفيس - الصفحة الرئيسية">
+              <div class="logo-icon" aria-hidden="true">R</div>
+              <span class="logo-text">ريتال أوفيس</span>
+            </a>
+            <p class="footer-tagline">بوابتك نحو التعليم الدولي — نساعدك على تحقيق أحلامك الأكاديمية في مصر والصين والهند.</p>
+            <div class="social-links footer-social" aria-label="وسائل التواصل الاجتماعي">
+              <a href="#" class="social-btn" aria-label="فيسبوك"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+              <a href="#" class="social-btn" aria-label="واتساب"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+              <a href="#" class="social-btn" aria-label="إنستغرام"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="#" class="social-btn" aria-label="تويتر"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <nav class="footer-links-col" aria-label="روابط سريعة">
+            <h4 class="footer-heading">روابط سريعة</h4>
+            <ul>
+              <li><a href="#home"><i class="fas fa-angle-left" aria-hidden="true"></i> الرئيسية</a></li>
+              <li><a href="#about"><i class="fas fa-angle-left" aria-hidden="true"></i> من نحن</a></li>
+              <li><a href="#services"><i class="fas fa-angle-left" aria-hidden="true"></i> خدماتنا</a></li>
+              <li><a href="#countries"><i class="fas fa-angle-left" aria-hidden="true"></i> الدول</a></li>
+              <li><a href="#contact"><i class="fas fa-angle-left" aria-hidden="true"></i> تواصل معنا</a></li>
+            </ul>
+          </nav>
+          <nav class="footer-links-col" aria-label="خدماتنا">
+            <h4 class="footer-heading">خدماتنا</h4>
+            <ul>
+              <li><a href="#services"><i class="fas fa-angle-left" aria-hidden="true"></i> القبول الجامعي</a></li>
+              <li><a href="#services"><i class="fas fa-angle-left" aria-hidden="true"></i> استخراج الدعوات</a></li>
+              <li><a href="#services"><i class="fas fa-angle-left" aria-hidden="true"></i> المنح الدراسية</a></li>
+              <li><a href="#services"><i class="fas fa-angle-left" aria-hidden="true"></i> الدراسات العليا</a></li>
+              <li><a href="#services"><i class="fas fa-angle-left" aria-hidden="true"></i> الاستشارات</a></li>
+            </ul>
+          </nav>
+          <nav class="footer-links-col" aria-label="الدول">
+            <h4 class="footer-heading">الدول</h4>
+            <ul>
+              <li><a href="#countries">🇪🇬 مصر</a></li>
+              <li><a href="#countries">🇨🇳 الصين</a></li>
+              <li><a href="#countries">🇮🇳 الهند</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p class="footer-credit">Created by <strong>KIN</strong></p>
+        <p class="footer-disclaimer">هذا الموقع غير رسمي ولم يتم إنشاؤه بواسطة Rital Office، وإنما هو مشروع مستقل وغير تابع للجهة الرسمية.</p>
+        <p class="footer-copy">©<span id="footerYear"></span>KINprojects29/06/2026</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="العودة إلى الأعلى" hidden>
+    <i class="fas fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
